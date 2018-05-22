@@ -45,9 +45,9 @@ public class Menu extends JFrame{
         panel_product = new Panel_product(username,password);
         panel_stock = new Panel_stock(username,password);
         //ADD PANEL IN TAB
-        tabs.addTab("Vendas",null,panel_sell);
-        tabs.addTab("Produtos",null,panel_product);
-        tabs.addTab("Estoque",null,panel_stock);
+        tabs.addTab("Vendas", null, panel_sell);
+        tabs.addTab("Produtos", null, panel_product);
+        tabs.addTab("Estoque", null, panel_stock);
         //THIS PART ADD ALL COMPONENTS ON JFRAME
         add(tabs,BorderLayout.CENTER);
     }

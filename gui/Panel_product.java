@@ -23,7 +23,7 @@ public class Panel_product extends JPanel{
     }
     
     private void initAll(){
-    
+        initComponents();
     }
     
     private void initComponents(){
